@@ -1,9 +1,9 @@
 import './App.css';
 import './hover.css';
 import './mobile.css';
-import marker from './font/marker.ttf';
+
 import cisco from './image/cisco.png';
-import React, { useState } from 'react';
+
 
 
 
