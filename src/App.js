@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="cv-container">
       <div className="personal-info">
-        <h1  >Olivier Smith</h1>
+        <h2>Olivier Smith</h2>
         <p>Date of Birth: 16/08/2001</p>
         <p>Place of Birth: Briancon, France</p>
         <p>Languages: French/English</p>
@@ -21,7 +21,7 @@ function App() {
 
       <div className="education">
        <h2>Education</h2>
-        <p>Lycée d'Altitude Briançon - Science in Management and Technology (A-Levels)</p>
+        <p>Lycée d'Altitude Briançon: Science in Management and Technology (A-Levels)</p>
         <p>Kingston University (2020 - 2023): BSc(Hons) Computer Science (2:2) </p>
       </div>
       
