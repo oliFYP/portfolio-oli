@@ -1,7 +1,7 @@
 import './App.css';
 import './hover.css';
 import './mobile.css';
-
+import oli from './image/oli.jpg'
 import cisco from './image/cisco.png';
 
 
@@ -12,7 +12,10 @@ function App() {
   return (
     <div className="cv-container">
       <div className="personal-info">
+      <img className= "oli" src={oli} alt="oli" draggable="false" />
+    
         <h2>Olivier Smith</h2>
+        <div class="line"></div>
         <p>Date of Birth: 16/08/2001</p>
         <p>Place of Birth: Briancon, France</p>
         <p>Languages: French/English</p>
@@ -21,6 +24,7 @@ function App() {
 
       <div className="education">
        <h2>Education</h2>
+       <div class="line"></div>
         <p>Lycée d'Altitude Briançon: Science in Management and Technology (A-Levels)</p>
         <p>Kingston University (2020 - 2023): BSc(Hons) Computer Science (2:2) </p>
       </div>
@@ -99,6 +103,7 @@ function App() {
 
       <div className="work-experience">
         <h2>Work Experience</h2>
+        <div class="line"></div>
         <p>Bartender/Waiter - The Grove Surbiton - Feb 2022 until present</p>
         <p>McDonald's Briancon Cook - Every holiday 2018-2022</p>
       </div>
