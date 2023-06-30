@@ -1,38 +1,137 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: 'Carter';
+  src: url('./font/marker.ttf') format('truetype');
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.cv-container {
+  max-width: 100%;
+  padding: 20px;
+  background: linear-gradient(to bottom, black, gray);
+  align-items: center;
   display: flex;
   flex-direction: column;
+
+  
+}
+
+.personal-info {
+  margin-bottom: 20px;
+  width: 700px;
+  text-align: center;
+  background-color: #f2f2f2;
+  
+  padding: 10px;
+  border-radius: 20px;
+  
+}
+
+
+.personal-info h1 {
+
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.personal-info p {
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: black;
+ 
+}
+.wrap{
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.experience {
+  background-color: #e6f7ff;
+  backdrop-filter: blur(10px);
+  padding: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
+  border-radius: 20px;
+  width: 700px;
+
+}
+
+.experience h2 {
+
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+
+}
+
+
+.education {
+  background-color: #f9f2e6;
+  backdrop-filter: blur(10px);
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-left:20px;
+  border-radius: 20px;
+  width: 600px;
+  
+}
+
+
+.education h2 {
+
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+.education p {
+  font-size: 16px;
+  margin-bottom: 5px;
+  margin-left: 20px;
+}
+
+.work-experience {
+  background-color: #f2f2f2;
+  backdrop-filter: blur(10px);
+  padding: 10px;
+  width: 800px;
+  border-radius: 20px;
+}
+
+.work-experience h2 {
+  
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+.work-experience p {
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+.experience-images {
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  object-fit: contain;
 }
 
-.App-link {
-  color: #61dafb;
+.experience-images img {
+  margin: 20px;
+  width: 110px;
+  height: auto;
+  object-fit: contain;
+  cursor: pointer;
+}
+.cisco{
+  border-radius: 20px;
+}
+.work-experience p {
+  font-size: 16px;
+  margin-bottom: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.work-experience p:last-child {
+  margin-bottom: 0;
 }

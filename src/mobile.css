@@ -1,0 +1,35 @@
+@media screen and (max-width: 500px) {
+    .personal-info {
+       
+        width: 300px;
+        text-align: center;
+      }
+      .education{
+        width: 300px;
+        margin-left: 0px;
+      }
+      .experience {
+        margin-left: 0px;
+        width: 300px;
+      }
+      .work-experience{
+        width: 300px;
+      }
+}
+@media screen and (max-width: 450px) {
+    .personal-info {
+       
+        width: 280px;
+        text-align: center;
+      }
+      .education{
+        width: 280px;
+      }
+      .experience {
+        
+        width: 280px;
+      }
+      .work-experience{
+        width: 280px;
+      }
+}

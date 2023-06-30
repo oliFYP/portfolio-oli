@@ -1,0 +1,15 @@
+.personal-info,
+.education,
+.experience,
+.work-experience {
+  transition: transform 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow */
+}
+
+.personal-info:hover,
+.education:hover,
+.experience:hover,
+.work-experience:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Increase box shadow on hover */
+}
