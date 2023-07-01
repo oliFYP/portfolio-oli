@@ -28,6 +28,15 @@ function App() {
         <p>Lycée d'Altitude Briançon: Science in Management and Technology (A-Levels)</p>
         <p>Kingston University (2020 - 2023): BSc(Hons) Computer Science (2:2) </p>
       </div>
+
+      <div className="work-experience">
+        <h2>Work Experience</h2>
+        <div class="line"></div>
+        <p>Bartender/Waiter - The Grove Surbiton - Feb 2022 until present</p>
+        <p>McDonald's Briancon Cook - Every holiday 2018-2022</p>
+      </div>
+    
+      
       
       <div className="experience">
         <h2>Mobile App development experience</h2>
@@ -101,12 +110,7 @@ function App() {
       </div>
       
 
-      <div className="work-experience">
-        <h2>Work Experience</h2>
-        <div class="line"></div>
-        <p>Bartender/Waiter - The Grove Surbiton - Feb 2022 until present</p>
-        <p>McDonald's Briancon Cook - Every holiday 2018-2022</p>
-      </div>
+      
     </div>
   );
 }
