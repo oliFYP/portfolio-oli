@@ -1,14 +1,30 @@
 @media screen and (max-width: 500px) {
+  .cv-container{
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+  }
     .personal-info {
-       
         width: 300px;
         text-align: center;
       }
       .education{
+        
         width: 300px;
         margin-left: 0px;
         text-align: center;
-   
+        grid-column: 1;
+        grid-row: 2;
+      }
+      .work-experience{
+        width: 300px;
+        grid-column: 1;
+        grid-row: 3;
+      }
+      .leadership-experience{
+        width: 300px;
+        grid-column: 1;
+        grid-row: 4;
       }
       .education h2{
         margin-right: 20px;
@@ -16,13 +32,43 @@
       .education p{
         margin-right: 20px;
       }
-      .experience {
-        margin-left: 0px;
+      .experience-1{
         width: 300px;
+        grid-column: 1;
+        grid-row: 5;
+        
       }
-      .work-experience{
+      .experience-2{
         width: 300px;
+        grid-column: 1;
+        grid-row: 6;
+        
       }
+      .experience-3{
+        width: 300px;
+        grid-column: 1;
+        grid-row: 7;
+        
+      }
+      .experience-4{
+        width: 300px;
+        grid-column: 1;
+        grid-row: 8;
+        
+      }
+      .experience-5{
+        width: 300px;
+        grid-column: 1;
+        grid-row: 9;
+       
+      }
+      .experience-6{
+        width: 300px;
+        grid-column: 1;
+        grid-row: 10;
+        
+      }
+      
 }
 @media screen and (max-width: 450px) {
     .personal-info {

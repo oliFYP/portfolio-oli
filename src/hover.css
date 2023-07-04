@@ -1,15 +1,27 @@
 .personal-info,
 .education,
-.experience,
-.work-experience {
+.experience-1,
+.experience-2,
+.experience-3,
+.experience-4,
+.experience-5,
+.experience-6,
+.work-experience,
+.leadership-experience {
   transition: transform 0.3s ease;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow */
 }
 
 .personal-info:hover,
 .education:hover,
-.experience:hover,
-.work-experience:hover {
+.experience-1:hover,
+.experience-2:hover,
+.experience-3:hover,
+.experience-4:hover,
+.experience-5:hover,
+.experience-6:hover,
+.work-experience:hover,
+.leadership-experience:hover {
   transform: scale(1.05);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Increase box shadow on hover */
 }
