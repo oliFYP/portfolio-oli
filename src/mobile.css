@@ -32,6 +32,8 @@
       .education p{
         margin-right: 20px;
       }
+      .experience-1,
+
       .experience-1{
         width: 300px;
         grid-column: 1;
@@ -88,4 +90,15 @@
       .work-experience{
         width: 280px;
       }
+      .leadership-experience{
+        width: 280px;
+      }
+      .experience-1,
+.experience-2,
+.experience-3,
+.experience-4,
+.experience-5,
+.experience-6{
+  width: 280px;
+}
 }
