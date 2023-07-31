@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio-oli/static/css/main.6abee863.css",
+    "main.css": "/portfolio-oli/static/css/main.0fda53ef.css",
     "main.js": "/portfolio-oli/static/js/main.1b0c0cf5.js",
     "static/js/787.0f0aac89.chunk.js": "/portfolio-oli/static/js/787.0f0aac89.chunk.js",
     "static/media/sign.ttf": "/portfolio-oli/static/media/sign.d91d0fc4f519acb8994c.ttf",
@@ -8,12 +8,12 @@
     "static/media/bangers.ttf": "/portfolio-oli/static/media/bangers.0e89a2279da24d283991.ttf",
     "static/media/cisco.png": "/portfolio-oli/static/media/cisco.c4e4bdf14388145ca21d.png",
     "index.html": "/portfolio-oli/index.html",
-    "main.6abee863.css.map": "/portfolio-oli/static/css/main.6abee863.css.map",
+    "main.0fda53ef.css.map": "/portfolio-oli/static/css/main.0fda53ef.css.map",
     "main.1b0c0cf5.js.map": "/portfolio-oli/static/js/main.1b0c0cf5.js.map",
     "787.0f0aac89.chunk.js.map": "/portfolio-oli/static/js/787.0f0aac89.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6abee863.css",
+    "static/css/main.0fda53ef.css",
     "static/js/main.1b0c0cf5.js"
   ]
 }
