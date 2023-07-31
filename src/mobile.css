@@ -107,3 +107,113 @@
   width: 280px;
 }
 }
+
+@media screen and (max-width: 656px) {
+  .cv-container{
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+  }
+    .personal-info {
+        width: 300px;
+        text-align: center;
+      }
+      .education{
+        
+        width: 300px;
+        margin-left: 0px;
+        text-align: center;
+        grid-column: 1;
+        grid-row: 2;
+      }
+      .work-experience{
+        width: 300px;
+        grid-column: 1;
+        grid-row: 3;
+      }
+      .leadership-experience{
+        width: 300px;
+        grid-column: 1;
+        grid-row: 4;
+      }
+      .education h2{
+        margin-right: 20px;
+      }
+      .education p{
+        margin-right: 20px;
+      }
+      .experience-1,
+
+      .experience-1{
+        width: 300px;
+        grid-column: 1;
+        grid-row: 5;
+        
+      }
+      .experience-2{
+        width: 300px;
+        grid-column: 1;
+        grid-row: 6;
+        
+      }
+      .experience-3{
+        width: 300px;
+        grid-column: 1;
+        grid-row: 7;
+        
+      }
+      .experience-4{
+        width: 300px;
+        grid-column: 1;
+        grid-row: 8;
+        
+      }
+      .experience-5{
+        width: 300px;
+        grid-column: 1;
+        grid-row: 9;
+       
+      }
+      .experience-6{
+        width: 300px;
+        grid-column: 1;
+        grid-row: 10;
+        
+      }
+      .experience-images img {
+        
+        width: 100px;
+       
+      }
+      
+}
+@media screen and (max-width: 1481px) {
+    .personal-info {
+       
+        width: 280px;
+        text-align: center;
+      }
+      .education{
+        width: 280px;
+     
+        margin-left: 0px;
+      }
+      .experience {
+        
+        width: 280px;
+      }
+      .work-experience{
+        width: 280px;
+      }
+      .leadership-experience{
+        width: 280px;
+      }
+      .experience-1,
+.experience-2,
+.experience-3,
+.experience-4,
+.experience-5,
+.experience-6{
+  width: 280px;
+}
+}
